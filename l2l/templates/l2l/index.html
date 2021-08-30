@@ -1,5 +1,5 @@
 {% load static %}
-{#{% load l2l_extras %}#}
+{% load l2l_extras %}
 <!doctype html>
 <html lang="en">
     <head>
@@ -57,8 +57,8 @@
           <p class="lead fw-normal">Yes this is a rip-off from one of Bootstrap's example html pages.</p>
           <p class="lead fw-normal">Today's date is: {{ now }}</p>
           <p class="lead fw-normal">Today's ISO date is: {{ iso }}</p>
-          {#<p class="lead fw-normal">Today's date from a date is: {{ now|l2l_dt }}</p>#}
-          {#<p class="lead fw-normal">Today's date from a string is: {{ iso|l2l_dt }}</p>#}
+          <p class="lead fw-normal">Today's date from a date is: {{ now|l2l_dt }}</p>
+          <p class="lead fw-normal">Today's date from a string is: {{ iso|l2l_dt }}</p>
           <a class="btn btn-outline-secondary" href="#">Coming soon</a>
         </div>
         <div class="product-device shadow-sm d-none d-md-block"></div>
